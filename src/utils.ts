@@ -1,0 +1,1 @@
+export const sum = (...args: number[]): number => args.reduce((all, cur) => all + cur, 0);
